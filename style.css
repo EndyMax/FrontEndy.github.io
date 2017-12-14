@@ -171,3 +171,82 @@ topNubex:before{
     vertical-align: top;
     text-align: center;
 }
+.zero{
+	width: 70px;
+}
+.ravno{
+	height: 70px;
+}
+button{
+	background-color: #00FFA9;
+	border: #00FFA9;
+	width: 30px;
+    height: 30px;
+}
+/*
+[type="button"] {
+	width: 40px;
+    height: 40px;
+    background-color: #A055C6;
+	border: 2px solid black;
+}
+[type="button"]:hover {
+	background-color: #00FFA9;
+	color: lime;
+	border: 2px solid black;
+}
+*/
+/*Test stranica*/
+.div_test1{
+	background-color: #F6F6F6;
+	border-radius: 20px;
+	display: inline-block;
+}
+.ul_test2{
+	background-color: #C5CEDA;
+	margin: 4px;
+	border-radius: 20px;
+	padding-left: 10px;
+}
+.div_test3{
+	width: 1015px;
+    display: inline-block;
+    margin: auto;
+    vertical-align: top;
+	text-align: left;
+	padding: 10px;
+	
+}
+.div_1radio{
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 5px;
+}
+.div_2radio{
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 5px;
+}
+.div_3radio{
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 5px;
+}
+.div_4radio{
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 5px;
+}
+.div_5radio{
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 5px;
+}
+.progres{
+	margin-top: 5px;
+}
