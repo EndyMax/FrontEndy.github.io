@@ -12,7 +12,7 @@ header > h1{
     background-color: #F6F6F6;
     text-align: center;
     padding: 0;
-    margin: 0;
+	margin: 0;
 }
 header{
     border-radius: 10px;
@@ -26,22 +26,7 @@ nav {
     vertical-align: top;
 	border-radius: 10px;
 }
-.div_d1 {
-    width: 890px;
-    display: inline-block;
-    background-color: #F6F6F6;
-    text-align: center;
-    vertical-align: top;
-}
-.div_g1{
-	background-color: #F6F6F6;
-	border-radius: 20px;
-}
-.ul_gr{
-	background-color: #C5CEDA;
-	margin: 4px;
-	border-radius: 20px;
-}
+
 div.wrapper{
     width: 1200px;
     margin: 0 auto;
@@ -57,34 +42,132 @@ footer{
 	width: 1200px;
 	border-radius: 10px;
 }
-.div_td_t{
-    display: inline-block;
-    background-color: #F6F6F6;
-
+article{
+	display: inline-block;
 }
-.div_art_ht{
-	width: 890px;
-    display: inline-block;
-
+.none_article{
+    display: block;
 }
-.fot_ht{
-	border-radius: 10px;
+ul > li{ 
+    list-style: none;
 }
-.div_css{
+p { 
+	margin: 0 auto;
+}
+/*псевдо-класс*/
+topNubex:before{ 
+    content:""; border-bottom: 1px solid black; 30px;
+}
+/*index stranica*/
+.div_index1 {
     width: 890px;
     display: inline-block;
+    background-color: #F6F6F6;
+	margin: 0 auto;
+    vertical-align: top;
 }
-.div_boot{
+.div_index2{
+	background-color: #F6F6F6;
+	border-radius: 20px;
+}
+.ul_index1{
+	background-color: #C5CEDA;
+	margin: 4px;
+	border-radius: 20px;
+	padding-left: 10px;
+}
+/*techhnologies stranica*/
+.div_technologies1{
+	background-color: #F6F6F6;
+	border-radius: 20px;
+}
+.ul_technologies2{
+	background-color: #C5CEDA;
+	margin: 4px;
+	border-radius: 20px;
+	padding-left: 10px;
+}
+.div_technologies3{
 	width: 890px;
-    display: inline-block;
-}
-.div_test{
-	width: 1000px;
     display: inline-block;
     background-color: #F6F6F6;
     vertical-align: top;
-	border-style: solid;
-	border-radius: 10px;
-	
 }
-
+/*html stranica*/
+.div_html1{
+	background-color: #F6F6F6;
+	border-radius: 20px;
+}
+.ul_html2{
+    background-color: #C5CEDA;
+    margin: 4px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.div_html3{
+	width: 890px;
+    display: inline-block;
+	margin: 0 auto;
+    vertical-align: top;
+}
+.float_right{
+	float: right;
+    background-color: #C6C6C6;
+	border-radius: 10px;
+	display: inline-block;
+	width: 320px;
+	padding: 4px;
+}
+/*css stranica*/
+.ul_css2{
+	background-color: #C5CEDA;
+	margin: 4px;
+	border-radius: 20px;
+	padding-left: 10px;
+}
+.div_css3{
+	width: 890px;
+    display: inline-block;
+    background-color: #F6F6F6;
+	margin: 0 auto;
+    vertical-align: top;
+}
+.div_css1{
+	background-color: #F6F6F6;
+	border-radius: 20px;
+}
+/*bootstrap stranica*/
+.div_bootstrap1{
+	background-color: #F6F6F6;
+	border-radius: 20px;
+}
+.ul_bootstrap2{
+    background-color: #C5CEDA;
+	margin: 4px;
+	border-radius: 20px;
+	padding-left: 10px;
+}
+.div_bootstrap3{
+    width: 890px;
+    display: inline-block;
+	margin: 0 auto;
+    vertical-align: top;
+}
+/*calculator stranica*/
+.div_calculator1{
+	background-color: #F6F6F6;
+	border-radius: 20px;
+}
+.ul_calculator2{
+	background-color: #C5CEDA;
+	margin: 4px;
+	border-radius: 20px;
+	padding-left: 10px;
+}
+.div_calculator3{
+    width: 890px;
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: top;
+    text-align: center;
+}
